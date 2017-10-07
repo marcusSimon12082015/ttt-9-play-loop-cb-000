@@ -42,8 +42,9 @@ def play(board)
     turn(board)
   }
 =end
-turn = 0
-while turn < 9
+turn_number = 0
+while turn_number < 9
   turn(board)
+  turn_number++
 end
 end
