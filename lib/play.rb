@@ -37,7 +37,10 @@ end
 
 # Define your play method below
 def play(board)
+=begin
   9.times{
     turn(board)
   }
+=end
+
 end
